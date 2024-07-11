@@ -1,0 +1,350 @@
+.navbar {
+    background-color: rgba(3, 36, 124, 0.622);
+    width: 100%;
+    list-style-type: none;
+    padding: 10px;
+
+    margin: 0;
+    /* Üst çubuk menüsünün üst ve yanlarda boşluk bırakmaması için */
+    position: fixed;
+    /* Üst çubuk menüsünü sabitleme */
+    top: 0;
+    /* Üst çubuk menüsünü sayfanın en üstüne sabitleme */
+    left: 0;
+    /* Üst çubuk menüsünü sol tarafa sabitleme */
+    z-index: 1000;
+    /* Üst çubuk menüsünü diğer içeriklerin önüne getirme */
+    justify-content: flex-end;
+    /* İçerikleri sağ tarafa hizalama */
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.navbar .lo a:hover{
+    text-decoration:solid;
+    color: white;
+
+}
+
+.navbar li {
+    display: inline;
+    padding: 6px;
+
+}
+
+
+.lo {
+    text-align: left;
+    margin-left: 130px;
+
+}
+
+body {
+    background-color: rgb(231, 255, 255);
+}
+
+
+#kutu1 {
+    background-color:  rgba(3, 36, 124, 0.622);
+    width: 400px;
+    height: 400px;
+    border-radius: 2%;
+    margin-top: 75px;
+    margin-left: 150px;
+    display: inline-block;
+
+}
+
+#computer {
+    width: 400px;
+    height: 215px;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+
+}
+
+#profil {
+    width: 150px;
+    height: 140px;
+    /* Tam yuvarlak olması için yüksekliği genişlik ile aynı yapalım */
+    border-radius: 50%;
+    margin-top: -75px;
+    /* Profil resmini bilgisayar resminin üzerine getirmek için */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hamza {
+    margin-left: 140px;
+    font-weight: bold;
+    margin-top: 0px;
+
+}
+
+#soft {
+    margin-left: 135px;
+    margin-top: -7px;
+}
+
+#kutu3 {
+    background-color:  rgba(3, 36, 124, 0.622);
+    width: 600px;
+    height: 65px;
+    margin-left: 620px;
+    margin-top: -400px;
+    border-radius: 2%;
+    border-style: outset;
+}
+
+#başlık {
+    text-align: center;
+    margin-top: 11px;
+}
+
+
+#kutu2 {
+    background-color:  rgba(3, 36, 124, 0.622);
+    width: 500px;
+    height: 150px;
+    margin-left: 620px;
+    border-radius: 1%;
+    border-style: outset;
+    margin-top: 20px;
+}
+
+.Hakkımda {
+    margin-left: 15px;
+}
+
+#Yeteneklerim {
+    background-color:  rgba(3, 36, 124, 0.622);
+    width: 500px;
+    height: 130px;
+    margin-left: 620px;
+    border-style: outset;
+    border-radius: 1%;
+    margin-top: 20px;
+}
+
+.yeto {
+    margin-left: 15px;
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+ul li {
+    margin-top: 2px;
+}
+
+#sosyal {
+    background-color:  rgba(3, 36, 124, 0.622);
+    width: 360px;
+    height: 200px;
+    border-radius: 2%;
+    margin-left: 150px;
+    padding: 20px;
+    /* İçerik ile kutu arasında boşluk bırakır */
+    margin-top: 15px;
+}
+
+.social {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    /* Listenin dış boşluğunu sıfırlar */
+}
+
+.social li {
+    margin-bottom: 10px;
+    /* Listenin öğeleri arasında boşluk bırakır */
+}
+
+.social li a {
+    display: block;
+    padding-left: 15px;
+    /* Sol boşluğu ayarlar */
+    padding-top: 15px;
+    /* Yukarı boşluğu ayarlar */
+    margin-bottom: 10px;
+    /* Linkler arasında boşluk bırakır */
+    text-decoration: none;
+    color: #000;
+    /* Yazı rengini siyah yapar */
+}
+
+.social li a:hover {
+    text-decoration: solid;
+    /* Link üzerine gelindiğinde altı çizgi ekler */
+    color: rgba(176, 119, 229, 0.885);
+    /* Linkin üzerine gelindiğinde rengi değiştirir */
+}
+
+.social li i {
+    margin-right: 5px;
+    /* Font Awesome simgeleri ile yazı arasındaki boşluğu ayarlar */
+    color: #B197FC;
+    /* Font Awesome simgelerinin rengini ayarlar */
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #0CC0DF;
+    width: 100%;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li {
+    display: inline;
+    padding: 6px;
+}
+
+.navbar li:hover {
+    background-color: rgba(0, 255, 208, 0.447);
+    transition: 0.2s;
+}
+
+.lo {
+    text-align: left;
+    margin-left: 130px;
+}
+
+.hakkımda1 {
+    background-color: rgba(41, 167, 213, 0.252);
+    width: 21cm;
+    height: 27cm;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.559);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.hizmetlerim {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.351);
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.hizmetlerim h2 {
+    font-size: 24px;
+    color: #0CC0DF;
+    margin-bottom: 20px;
+}
+
+.hizmetlerim .hizmet-kart {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.hizmetlerim .hizmet-kart i {
+    color: #0CC0DF;
+    margin-bottom: 10px;
+}
+
+.hizmetlerim .hizmet-kart h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.hizmetlerim .hizmet-kart p {
+    font-size: 14px;
+    color: #666;
+}
+
+.sosyalmedia1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+}
+
+.sosyalmedia1 .wew {
+    list-style: none;
+    margin: 40px 0;
+}
+
+.sosyalmedia1 .wew a {
+    text-decoration: none;
+    display: block;
+    width: 210px;
+    height: 80px;
+    background: #fff;
+    text-align: left;
+    padding-left: 20px;
+    transform: rotate(-30deg) skew(25deg);
+    transition: 0.5s;
+    box-shadow: -20px 20px 10px rgba(0, 255, 208, 0.447);
+    position: relative;
+}
+
+.sosyalmedia1 .wew a i {
+    font-size: 40px;
+    color: #262626;
+    line-height: 80px;
+    transition: 0.5s;
+    padding-right: 14px;
+}
+
+.sosyalmedia1 .wew a span {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #262626;
+    letter-spacing: 4px;
+    transition: 0.5s;
+}
+
+.sosyalmedia1 .wew a:before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    height: 100%;
+    width: 20px;
+    background: #b1b1b1;
+    transform: rotate(0deg) skewY(-45deg);
+    transition: 0.5s;
+}
+
+.sosyalmedia1 .wew a:hover {
+    box-shadow: -10px 10px 5px rgba(0, 255, 208, 0.447);
+    transform: rotate(-30deg) skew(25deg) translate(10px, 10px);
+}
